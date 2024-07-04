@@ -1,0 +1,23 @@
+uuid: 8b687a86-15a7-4826-bcb7-5d2905675f85
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.item
+id: node.item.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: item
+label: 'Item Price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 100000.0
+  prefix: ''
+  suffix: INR
+field_type: decimal

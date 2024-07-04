@@ -1,0 +1,29 @@
+uuid: 34941564-308e-42bd-bf46-244ea8121f6e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.content_admin
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__content_admin_block_1
+theme: bootstrap5
+region: content
+weight: 3
+provider: null
+plugin: 'views_block:content_admin-block_1'
+settings:
+  id: 'views_block:content_admin-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

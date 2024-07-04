@@ -1,0 +1,29 @@
+uuid: f0257096-e0fc-4429-8aab-65ea03558d20
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.grocery
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__grocery_block_1
+theme: bootstrap5
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:grocery-block_1'
+settings:
+  id: 'views_block:grocery-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

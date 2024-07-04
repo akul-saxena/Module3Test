@@ -1,0 +1,80 @@
+uuid: 95d86509-a48c-4632-9986-d282edc9b280
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.item.field_item_description
+    - field.field.node.item.field_item_image
+    - field.field.node.item.field_item_name
+    - field.field.node.item.field_item_price
+    - field.field.node.item.field_tag
+    - image.style.thumbnail
+    - node.type.item
+  module:
+    - image
+    - path
+id: node.item.default
+targetEntityType: node
+bundle: item
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_item_description:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_item_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_item_name:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_item_price:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tag:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

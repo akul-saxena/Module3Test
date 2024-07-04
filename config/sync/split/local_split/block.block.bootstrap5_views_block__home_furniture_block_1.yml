@@ -1,0 +1,29 @@
+uuid: e80d7e1f-5064-4f78-806d-af3914eebbfb
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.home_furniture
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__home_furniture_block_1
+theme: bootstrap5
+region: content
+weight: 1
+provider: null
+plugin: 'views_block:home_furniture-block_1'
+settings:
+  id: 'views_block:home_furniture-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

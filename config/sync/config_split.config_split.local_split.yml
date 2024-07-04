@@ -1,0 +1,22 @@
+uuid: 1669887d-7c57-4eb1-91cc-5e67f3f5fea9
+langcode: en-gb
+status: false
+dependencies: {  }
+id: local_split
+label: 'Local Split'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  devel: 0
+  views_ui: 0
+  webform: 0
+  webform_ui: 0
+  webform_views: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }
