@@ -1,0 +1,29 @@
+uuid: cbfa83e3-f4f9-492a-b7f0-6f5c87fa3676
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.appliances
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: bootstrap5_views_block__appliances_block_1
+theme: bootstrap5
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:appliances-block_1'
+settings:
+  id: 'views_block:appliances-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

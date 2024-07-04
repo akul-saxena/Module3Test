@@ -1,0 +1,20 @@
+uuid: cf82f66d-2e76-4b0f-b4e4-87e313c109a4
+langcode: en-gb
+status: false
+dependencies: {  }
+id: dev_split
+label: 'Dev Split'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: collection
+folder: ''
+module:
+  webform: 0
+  webform_ui: 0
+  webform_views: 0
+theme: {  }
+complete_list:
+  - system.site
+partial_list: {  }

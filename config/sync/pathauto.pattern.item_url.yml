@@ -1,0 +1,22 @@
+uuid: a403691c-2029-48c9-a434-f0796ebb0fcf
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - node
+id: item_url
+label: 'Item URL'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:field_item_name]'
+selection_criteria:
+  a608d16a-0650-4dde-ab4b-a8fac939cb4e:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: a608d16a-0650-4dde-ab4b-a8fac939cb4e
+    context_mapping:
+      node: node
+    bundles:
+      item: item
+selection_logic: and
+weight: -5
+relationships: {  }

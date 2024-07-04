@@ -1,0 +1,10 @@
+adding:
+  dependencies:
+    module:
+      - webform
+  permissions:
+    - 'delete any webform'
+    - 'delete any webform submission'
+    - 'delete own webform'
+    - 'delete own webform submission'
+removing: {  }
